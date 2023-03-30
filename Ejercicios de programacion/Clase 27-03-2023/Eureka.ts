@@ -23,7 +23,7 @@ while  (clave !== "eureka" && intentos < 3){                            //Evaluo
       console.log("Contraseña correcta. Ha ingresado al sistema"); 
 
 }        else   
-            console.log("Contraseña incorrecta.","Usted ha agotado el numero maximo de intentos para ingresar al sistema.");  //Sino vuelva en 30' :) 
+            console.log("Contraseña incorrecta.","\nUsted ha agotado el numero maximo de intentos para ingresar al sistema.");  //Sino vuelva en 30' :) 
            
            
      

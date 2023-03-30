@@ -7,16 +7,17 @@ que hemos agotado todas las oportunidades
 ° Si acertamos la clave saldremos del programa*/
 Object.defineProperty(exports, "__esModule", { value: true });
 var rls = require("readline-sync");
+var claveGuard = "eureka";
 var clave = rls.question("Ingrese clave de sistema:");
 var intentos = 0;
 console.log("Usted ingreso: ", clave); //Muestro por pantalla la contraseña ingresada.
 intentos = intentos + 1; // ya sumo +1 a los intentos teniendo encuenta la question inicial.
-while (clave !== "eureka" && intentos < 3) { //Evaluo la clave ingresada por el usuario y la comparo con los intentos fallidos, si es que hay//
+while (clave !== claveGuard && intentos < 3) { //Evaluo la clave ingresada por el usuario y la comparo con los intentos fallidos, si es que hay//
     console.log("Contraseña incorrecta vuelva a escribir clave");
     clave = rls.question("Ingrese clave de sistema: ");
     intentos = intentos + 1;
 }
-if (clave === "eureka") { //Si las claves coinciden el programa finaliza
+if (clave === claveGuard) { //Si las claves coinciden el programa finaliza
     console.log("Contraseña correcta. Ha ingresado al sistema");
 }
 else

@@ -7,7 +7,7 @@ que hemos agotado todas las oportunidades
 
 import * as rls from "readline-sync";
 
-const claveGuard: string ="eureka";
+const claveGuard : string ="eureka";
 let clave : string = rls.question("Ingrese clave de sistema:");
 let intentos : number = 0;
  

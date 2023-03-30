@@ -20,11 +20,11 @@ while  (clave !== "eureka" && intentos < 3){                            //Evaluo
    intentos = intentos + 1 ;
 
 }    if(clave === "eureka"){                                            //Si las claves coinciden el programa finaliza
-      console.log("Contraseña correcta. Ha ingresado al sistema"); 
+        console.log("Contraseña correcta. Ha ingresado al sistema"); 
 
 }        else   
             console.log("Contraseña incorrecta.","\nUsted ha agotado el numero maximo de intentos para ingresar al sistema.");  //Sino vuelva en 30' :) 
-           
+            
            
      
          

@@ -14,3 +14,6 @@ function contarMayus(cadenaDeTexto: string): number {
         return contador;
 }
  console.log(`La cantidad de palabras que empiezan con mayusculas es : ${contarMayus(cadenaDeTexto)}`);
+
+
+ 

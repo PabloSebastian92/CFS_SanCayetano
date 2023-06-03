@@ -1,0 +1,161 @@
+.contenedor{
+  border:solid 2px orange;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  background-color: gray;
+  margin:10px;
+  border:solid 1px black;
+  border-radius: 0.3cm;
+  height: 80px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.izquierda{
+  display: flex;
+  flex-direction: column;
+}
+
+#encabezado{
+  margin: 15px;
+  padding-left: 0.3cm;
+}
+
+#logo{
+  margin-left: 25px;
+  padding-left: 0.3cm;
+  background-color: blue;
+  color: white;
+  border:solid 1px black;
+  width: 110px;
+  height: 20px;
+}
+
+.derecha{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#menu1{
+  margin: 13px;
+  color: white;
+  border:solid 1px black;
+  background-color: green;
+  padding-left: 0.3cm;
+  width: 230px;
+  height: 20px;
+}
+
+#menu2{
+  margin-right: 13px;
+  padding-left: 0.3cm;
+  background-color: brown;
+  color: white;
+  border:solid 1px black;
+  width: 350px;
+  height: 20px;
+}
+
+.centro{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  width: 95%;
+}
+
+#izquierda1{
+padding-top: 0.3cm;
+padding-left: 0.3cm;
+color: white;
+border: solid 1px black;
+background-color: black;
+border-radius: 0.3cm;
+width: 150px;
+height:200px;
+}
+
+#centro1{
+padding-top: 0.3cm;
+padding-left: 0.3cm;
+color: white;
+border: solid 1px black;
+background-color: skyblue;
+border-radius: 0.3cm;
+width: 150px;
+height: 200px;
+}
+
+#derecha1{
+padding-top: 0.3cm;
+padding-left: 0.3cm;
+color: white;
+border: solid 1px black;
+background-color: gold;
+border-radius: 0.3cm;
+width: 150px;
+height: 200px; 
+}
+
+.centro2{
+margin: 10px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 95%;
+}
+
+#izquierda2{
+padding-top: 0.3cm;
+padding-left: 0.3cm;
+color:white;
+border: solid 1px black;
+border-radius: 0.3cm;
+background-color: green;
+width: 63%;
+height: 150px;
+}
+
+#derecha2{
+padding-top: 0.3cm;
+padding-left: 0.3cm;
+color:white;
+border: solid 1px black;
+border-radius: 0.3cm;
+background-color:red;
+width: 150px;
+height: 150px;
+}
+
+.pie{
+background-color: skyblue;
+border: solid 1px black;
+border-radius: 0.3cm;
+margin: 10px;
+width: 95%;
+height: 70px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#divelemento{
+margin: 20px;
+border: solid 1px black;
+color: white;
+background-color: blue;
+width: 100px;
+height: 20px;
+}
+
+#divpie{
+  margin: 10px;
+}

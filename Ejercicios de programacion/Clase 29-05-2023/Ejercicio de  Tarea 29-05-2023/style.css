@@ -1,0 +1,38 @@
+body{
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-image: url(./restaurante.jpg);
+}
+
+header{
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+h1{
+background-color:red;
+}
+
+h2{
+font-family: 'Times New Roman', Times, serif;
+background-color: aqua;
+text-align: center;
+}
+
+h2 ,li{
+padding-left: 15px;
+margin: 10px;
+}
+
+
+h3,p {
+color: red;
+text-align: center;
+}
+
+#link:hover{
+background-color: skyblue;
+}
+
+#link:active{
+background-color: gold;
+}

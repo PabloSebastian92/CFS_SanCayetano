@@ -13,7 +13,7 @@ Las notas deben estar entre 0 y 10 (si no lo están, no imprimirá las
 notas, mostrará un mensaje de error y continuará con otro alumno)*/
 Object.defineProperty(exports, "__esModule", { value: true });
 var rls = require("readline-sync");
-var NomAlum = "a";
+var NomAlum = "a"; // inicializo la variable con a para poder ingresar al ciclo.
 var notapract, notaproble, notateorica, notafinal = 0;
 while (NomAlum != "") {
     NomAlum = rls.question("Ingrese nombre alumno: ");
@@ -21,8 +21,8 @@ while (NomAlum != "") {
         console.log("El Programa finalizo");
     }
     if (NomAlum != ("")) {
-        notapract = rls.questionInt("Ingrese nota practica: ");
-        notaproble = rls.questionInt("Ingrese nota de problemas: ");
+        notapract = rls.questionInt("Ingrese nota practica: "); // en el ciclo while pregunto las notas para ingresarlas, luego calculo el resultado y lo muestro.
+        notaproble = rls.questionInt("Ingrese nota de problemas: "); // en caso de ingresar valores no deseados "mensaje de error."
         notateorica = rls.questionInt("Ingrese nota teorica: ");
     }
     if (notapract < 0 || notapract > 10 || notaproble < 0 || notaproble > 10 || notateorica < 0 || notateorica > 10) {

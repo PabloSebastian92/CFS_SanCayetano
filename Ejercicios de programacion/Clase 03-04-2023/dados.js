@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var rls = require("readline-sync");
 var numdados = rls.questionInt("Ingrese numero de dados a calcular:");
 var probabilid = 1;
-for (var contador = 0; contador < numdados; contador++) {
+for (var contador = 0; contador < numdados; contador++) { //realizo un for para calcular la probabilidad de cualquier numero ingresado por usuarios.
     probabilid = probabilid * 1 / 6;
 }
-console.log("La probabilidad de sacar todos los dados con 6 es :", probabilid);
+console.log("La probabilidad de sacar todos los dados con 6 es :", probabilid); // Imprimo por pantalla el resultado.
